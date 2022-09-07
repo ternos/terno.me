@@ -1,0 +1,10 @@
+body {
+    background-color: #FFE7C3;
+    display: flex;
+    justify-content: center;
+}
+
+.glasses {
+    position: absolute;
+    top: 20%;
+}
