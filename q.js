@@ -2,7 +2,7 @@ const apiKey = process.env.TABLE_API_KEY
 const url = "https://api.airtable.com/v0/app21tWfi7qHqWEjJ/Quotes";
 const options = {
     headers: {
-      Authorization: "Bearer " + apiKey
+      Authorization: "Bearer ${process.env.TABLE_API_KEY}"
     }
   };
 
